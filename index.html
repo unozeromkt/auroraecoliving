@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora Ecoliving | Naturaleza y Descanso en Girardota</title>
+  <meta name="description"
+    content="Escapadas de naturaleza con jacuzzi privado a solo minutos de Medellín. Aurora Ecoliving: un refugio en Girardota para descansar y reconectar." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Content will be injected here or statically built -->
+
+    <!-- Minimal Header mostly static for now, can be componentized -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="logo">
+          <img src="/src/assets/logo-aurora.jpg" alt="Aurora Ecoliving">
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="/about.html">Nosotros</a></li>
+            <li><a href="/accommodations.html">Alojamientos</a></li>
+            <li><a href="/services.html">Servicios</a></li>
+            <li><a href="/gallery.html">Galería</a></li>
+            <li><a href="/contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <a href="https://wa.me/573007402495" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Consultar
+          disponibilidad</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-slider">
+          <div class="hero-slide active" style="background-image: url('/src/assets/hero-home.jpg');"></div>
+          <div class="hero-slide"
+            style="background-image: url('/src/assets/alojamientos/Finca Luxury/finca-girardota-lujo1.jpg');"></div>
+          <div class="hero-slide"
+            style="background-image: url('/src/assets/alojamientos/CABAÑA DOBLE AURORA ECOLIVING-20260128T223354Z-3-001/CABAÑA DOBLE AURORA ECOLIVING/cabana-doble-girardota1.jpg');">
+          </div>
+          <div class="hero-slide"
+            style="background-image: url('/src/assets/alojamientos/Cabaña Glamping/glammping-girardota1.jpg');"></div>
+        </div>
+        <div class="container hero-content">
+          <h1>Aurora Ecoliving: Naturaleza y <b>descanso de lujo cerca de Medellín</b></h1>
+          <p class="subtitle">Un refugio ecológico en Girardota diseñado para desconectarte del ruido, reconectar con la
+            naturaleza y vivir experiencias únicas.</p>
+          <div class="hero-actions">
+            <a href="https://wa.me/573007402495" class="btn btn-primary" target="_blank"
+              rel="noopener noreferrer">Consultar disponibilidad</a>
+            <a href="/accommodations.html" class="btn btn-secondary">Ver alojamientos</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Experience (Asymmetric Grid) -->
+      <section class="section experience fade-on-scroll" style="background-color: #F9F9F7; padding: 6rem 0;">
+        <div class="container">
+          <!-- Top Row: Heading -->
+          <div class="exp-header" style="margin-bottom: 3rem;">
+            <span
+              style="font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; color: var(--color-text-primary); font-weight: 600; display: block; margin-bottom: 1rem;">Sobre
+              Aurora Ecoliving</span>
+            <h2
+              style="font-size: 3rem; font-family: var(--font-heading); line-height: 1.1; max-width: 800px; color: #1a2e22;">
+              Donde cada amanecer trae una historia y cada estadía se siente como volver a la naturaleza.
+            </h2>
+          </div>
+
+          <!-- Bottom Row: 3 Columns (Text, Img1, Img2) -->
+          <div class="exp-grid-asym">
+            <!-- Col 1: Text -->
+            <div class="exp-text-col">
+              <p style="color: #555; margin-bottom: 2rem; font-size: 1.05rem;">
+                En Aurora Ecoliving combinamos la libertad del camping con el confort de un hotel boutique. Cada
+                detalle, desde nuestra arquitectura sostenible hasta nuestros senderos ecológicos, está pensado para tu
+                bienestar.
+              </p>
+              <a href="/about.html" class="btn btn-primary"
+                style="background-color: #4A6741; border: none; padding: 12px 30px;">Conoce más</a>
+            </div>
+
+            <!-- Col 2: Image Landscape (Smaller) -->
+            <div class="exp-img-col-1">
+              <img src="/src/assets/alojamientos/Finca Luxury/finca-girardota-lujo15.jpg" alt="Piscina con vista"
+                style="width: 100%; height: 300px; object-fit: cover; border-radius: 20px;">
+            </div>
+
+            <!-- Col 3: Image Portrait (Taller) -->
+            <div class="exp-img-col-2">
+              <img
+                src="/src/assets/alojamientos/CABAÑA DOBLE AURORA ECOLIVING-20260128T223354Z-3-001/CABAÑA DOBLE AURORA ECOLIVING/cabana-doble-girardota25.jpg"
+                alt="Sendero natural" style="width: 100%; height: 450px; object-fit: cover; border-radius: 20px;">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Why Choose Us (Beige Background) -->
+      <section class="section why-choose-us fade-on-scroll">
+        <div class="container">
+          <h2 class="section-title">¿Por qué elegir Aurora Ecoliving?</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">✨</div>
+              <h3>Jacuzzi Privado</h3>
+              <p>En cada alojamiento</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🌊</div>
+              <h3>Piscina Social</h3>
+              <p>Vista a la naturaleza</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🏔️</div>
+              <h3>Entorno Campestre</h3>
+              <p>Silencioso y seguro</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🍽️</div>
+              <h3>Equipados</h3>
+              <p>Espacios completos</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🚗</div>
+              <h3>Fácil Acceso</h3>
+              <p>Cerca de Medellín</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Group Event Banner -->
+      <section class="group-event-banner fade-on-scroll">
+        <div class="container banner-content">
+          <h2 class="banner-heading">Perfecto para:</h2>
+          <div class="banner-tags">
+            <span class="banner-tag">Reuniones Familiares</span>
+            <span class="banner-tag">Despedidas</span>
+            <span class="banner-tag">Retiros Corporativos Pequeños</span>
+          </div>
+          <a href="/contact.html" class="banner-cta">Organiza tu evento</a>
+        </div>
+      </section>
+
+      <!-- Section: Mini Gallery (White Background) -->
+      <section class="section mini-gallery fade-on-scroll bg-white">
+        <div class="container">
+          <h2 class="section-title">Nuestros Espacios</h2>
+          <div class="gallery-grid-fixed">
+            <div class="gallery-item-fixed">
+              <img src="/src/assets/alojamientos/Cabaña Glamping/glammping-girardota3.jpg" alt="Glamping Interior"
+                loading="lazy" class="lightbox-trigger">
+            </div>
+            <div class="gallery-item-fixed">
+              <img
+                src="/src/assets/alojamientos/CABAÑA DOBLE AURORA ECOLIVING-20260128T223354Z-3-001/CABAÑA DOBLE AURORA ECOLIVING/cabana-doble-girardota15.jpg"
+                alt="Cabaña Doble Interior" loading="lazy" class="lightbox-trigger">
+            </div>
+            <div class="gallery-item-fixed">
+              <img src="/src/assets/alojamientos/Finca Luxury/finca-girardota-lujo16.jpg" alt="Finca Luxury Noche"
+                loading="lazy" class="lightbox-trigger">
+            </div>
+            <div class="gallery-item-fixed">
+              <img src="/src/assets/alojamientos/Casa Fonda/aurora_ecoliving_casa_fonda4.jpg" alt="Casa Fonda Exterior"
+                loading="lazy" class="lightbox-trigger">
+            </div>
+            <div class="gallery-item-fixed">
+              <img
+                src="/src/assets/alojamientos/CABAÑA DOBLE AURORA ECOLIVING-20260128T223354Z-3-001/CABAÑA DOBLE AURORA ECOLIVING/cabana-doble-girardota20.jpg"
+                alt="Jacuzzi Privado" loading="lazy" class="lightbox-trigger">
+            </div>
+            <div class="gallery-item-fixed">
+              <img src="/src/assets/alojamientos/Cabaña Glamping/glammping-girardota8.jpg" alt="Glamping Deck"
+                loading="lazy" class="lightbox-trigger">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Accommodations Preview (Beige Background) -->
+      <section class="section accommodations-preview fade-on-scroll">
+        <div class="container">
+          <h2 class="section-title">Nuestros Alojamientos</h2>
+          <!-- Adjusted to 4 column row -->
+          <div class="cards-grid four-col-row">
+            <!-- Card 1 -->
+            <div class="card">
+              <div class="card-img"
+                style="background-image: url('/src/assets/alojamientos/Finca Luxury/finca-girardota-lujo1.jpg');"></div>
+              <div class="card-body">
+                <h3>Finca Luxury</h3>
+                <p>Ideal para grupos y eventos.</p>
+                <a href="/accommodations.html" class="btn btn-secondary">Ver detalles</a>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+              <div class="card-img"
+                style="background-image: url('/src/assets/alojamientos/Casa Fonda/aurora_ecoliving_casa_fonda3.jpg');">
+              </div>
+              <div class="card-body">
+                <h3>Casa Fonda</h3>
+                <p>Espacio familiar.</p>
+                <a href="/accommodations.html" class="btn btn-secondary">Ver detalles</a>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+              <div class="card-img"
+                style="background-image: url('/src/assets/alojamientos/CABAÑA DOBLE AURORA ECOLIVING-20260128T223354Z-3-001/CABAÑA DOBLE AURORA ECOLIVING/cabana-doble-girardota14.jpg');">
+              </div>
+              <div class="card-body">
+                <h3>Cabaña Doble</h3>
+                <p>Escapadas románticas.</p>
+                <a href="/accommodations.html" class="btn btn-secondary">Ver detalles</a>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card">
+              <div class="card-img"
+                style="background-image: url('/src/assets/alojamientos/Cabaña Glamping/glammping-girardota1.jpg');">
+              </div>
+              <div class="card-body">
+                <h3>Glamping</h3>
+                <p>Naturaleza con confort.</p>
+                <a href="/accommodations.html" class="btn btn-secondary">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Testimonials Carousel (White Background) -->
+      <section class="section testimonials fade-on-scroll bg-white">
+        <div class="container">
+          <h2 class="section-title">Lo que dicen nuestros huéspedes</h2>
+
+          <div class="carousel-container">
+            <button class="carousel-btn prev-btn" aria-label="Anterior">❮</button>
+
+            <div class="carousel-track-container">
+              <ul class="carousel-track">
+                <li class="carousel-slide current-slide">
+                  <div class="review-card">
+                    <p class="review-text">"Un lugar mágico. La conexión con la naturaleza es total y la casa luxury
+                      superó todas mis expectativas. Perfecto para desconectar."</p>
+                    <p class="review-author">— Camila R.</p>
+                    <div class="review-stars">★★★★★</div>
+                  </div>
+                </li>
+                <li class="carousel-slide">
+                  <div class="review-card">
+                    <p class="review-text">"La atención fue impecable. El jacuzzi privado con vista a las montañas es
+                      inigualable. Definitivamente volveremos."</p>
+                    <p class="review-author">— Juan David M.</p>
+                    <div class="review-stars">★★★★★</div>
+                  </div>
+                </li>
+                <li class="carousel-slide">
+                  <div class="review-card">
+                    <p class="review-text">"Muy cerca de Medellín pero se siente como otro mundo. Silencioso, limpio y
+                      muy acogedor. El glamping es hermoso."</p>
+                    <p class="review-author">— Sofía L.</p>
+                    <div class="review-stars">★★★★★</div>
+                  </div>
+                </li>
+                <li class="carousel-slide">
+                  <div class="review-card">
+                    <p class="review-text">"Celebrar nuestro aniversario aquí fue la mejor decisión. La Cabaña Doble es
+                      súper romántica y privada."</p>
+                    <p class="review-author">— Andrés & Caro</p>
+                    <div class="review-stars">★★★★★</div>
+                  </div>
+                </li>
+                <li class="carousel-slide">
+                  <div class="review-card">
+                    <p class="review-text">"Excelente servicio, las instalaciones son tal cual las fotos. La piscina
+                      tiene una vista espectacular."</p>
+                    <p class="review-author">— Felipe T.</p>
+                    <div class="review-stars">★★★★★</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <button class="carousel-btn next-btn" aria-label="Siguiente">❯</button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Lightbox Modal -->
+      <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+      </div>
+
+      <!-- WhatsApp Floating Widget -->
+      <a href="https://wa.me/573007402495" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        aria-label="Chatea con nosotros en WhatsApp">
+        <div class="whatsapp-label">Chatea con nosotros</div>
+        <div class="whatsapp-icon">
+          <i class="fab fa-whatsapp"></i>
+        </div>
+      </a>
+
+      <!-- Reference-Style Image CTA -->
+      <section class="section image-cta fade-on-scroll">
+        <div class="image-cta-overlay"></div>
+        <div class="container image-cta-content">
+          <span class="cta-label">EMPIEZA TU VIAJE</span>
+          <h2>¿Listo para escapar del ruido y reconectar con la naturaleza?</h2>
+          <p>Deja atrás el estrés de la ciudad. En Aurora Ecoliving te espera un santuario de paz, lujo y paisajes
+            inolvidables.</p>
+          <a href="/contact.html" class="btn btn-primary cta-btn">Contáctanos</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div class="footer-section footer-brand">
+          <img src="/src/assets/logo-aurora.jpg" alt="Aurora Ecoliving" class="footer-logo">
+          <p class="footer-description">Un refugio ecológico en Girardota diseñado para desconectarte del ruido y
+            reconectar con la naturaleza.</p>
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://waze.com" target="_blank" rel="noopener noreferrer" aria-label="Waze">
+              <i class="fab fa-waze"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section footer-links">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="/about.html">Nosotros</a></li>
+            <li><a href="/accommodations.html">Alojamientos</a></li>
+            <li><a href="/services.html">Servicios</a></li>
+            <li><a href="/gallery.html">Galería</a></li>
+            <li><a href="/contact.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section footer-legal">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="/privacy.html">Política de Privacidad</a></li>
+            <li><a href="/data-treatment.html">Tratamiento de Datos</a></li>
+            <li><a href="/terms.html">Términos y Condiciones</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section footer-contact">
+          <h3>Contacto</h3>
+          <ul>
+            <li><a href="https://wa.me/573007402495" target="_blank" rel="noopener noreferrer"
+                style="color: inherit; text-decoration: none;"><i class="fab fa-whatsapp"></i> +57 300 740 2495</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Girardota, Antioquia</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 Aurora Ecoliving. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

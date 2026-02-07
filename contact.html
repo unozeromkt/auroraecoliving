@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Aurora Ecoliving</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="app">
+        <header class="site-header">
+            <div class="container header-inner">
+                <a href="/" class="logo">
+                    <img src="/src/assets/logo-aurora.jpg" alt="Aurora Ecoliving">
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="/about.html">Nosotros</a></li>
+                        <li><a href="/accommodations.html">Alojamientos</a></li>
+                        <li><a href="/services.html">Servicios</a></li>
+                        <li><a href="/gallery.html">Galería</a></li>
+                        <li><a href="/contact.html" class="active">Contacto</a></li>
+                    </ul>
+                </nav>
+                <a href="https://wa.me/573007402495" class="btn btn-primary" target="_blank"
+                    rel="noopener noreferrer">Consultar disponibilidad</a>
+            </div>
+        </header>
+        <main>
+            <section class="page-hero" style="background-image: url('/src/assets/hero-bg.png');">
+                <div class="page-hero-content">
+                    <h1>Contacto / Reservas</h1>
+                    <p>Reserva tu experiencia en Aurora Ecoliving</p>
+                </div>
+            </section>
+
+            <div class="container page-content">
+                <div class="two-col-grid" style="align-items: start;">
+                    <div class="contact-form-wrapper">
+                        <h2>Escríbenos</h2>
+                        <p style="margin-bottom: 2rem;">¿Listo para vivir una experiencia diferente? Completa el
+                            formulario o escríbenos por WhatsApp.</p>
+
+                        <form class="contact-form"
+                            onsubmit="event.preventDefault(); alert('Gracias por tu mensaje. Te contactaremos pronto.');">
+                            <div class="form-group" style="margin-bottom: 1rem;">
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Nombre</label>
+                                <input type="text"
+                                    style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"
+                                    required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 1rem;">
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email</label>
+                                <input type="email"
+                                    style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"
+                                    required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 1rem;">
+                                <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Mensaje</label>
+                                <textarea rows="4"
+                                    style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensaje</button>
+                        </form>
+
+                        <div style="margin-top: 2rem; text-align: center;">
+                            <a href="https://wa.me/573007402495" class="btn btn-secondary" style="width: 100%;"
+                                target="_blank" rel="noopener noreferrer">Chat en WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="faq-wrapper">
+                        <h2>Preguntas Frecuentes</h2>
+                        <div class="faq-item" style="margin-bottom: 1.5rem;">
+                            <h4 style="margin-bottom: 0.5rem; color: var(--color-secondary);">¿A qué distancia está de
+                                Medellín?</h4>
+                            <p>Aproximadamente 30–40 minutos en carro, sin peajes.</p>
+                        </div>
+                        <div class="faq-item" style="margin-bottom: 1.5rem;">
+                            <h4 style="margin-bottom: 0.5rem; color: var(--color-secondary);">¿Todos los alojamientos
+                                tienen jacuzzi?</h4>
+                            <p>Sí, cada alojamiento cuenta con jacuzzi privado.</p>
+                        </div>
+                        <div class="faq-item" style="margin-bottom: 1.5rem;">
+                            <h4 style="margin-bottom: 0.5rem; color: var(--color-secondary);">¿Es apto para familias?
+                            </h4>
+                            <p>Sí, contamos con alojamientos ideales para familias y grupos (Casa Luxury y Casa Fonda).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- WhatsApp Floating Widget -->
+        <a href="https://wa.me/573007402495" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+            aria-label="Chatea con nosotros en WhatsApp">
+            <div class="whatsapp-label">Chatea con nosotros</div>
+            <div class="whatsapp-icon">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </a>
+
+        <footer class="site-footer">
+            <div class="container footer-content">
+                <div class="footer-section footer-brand">
+                    <img src="/src/assets/logo-aurora.jpg" alt="Aurora Ecoliving" class="footer-logo">
+                    <p class="footer-description">Un refugio ecológico en Girardota diseñado para desconectarte del
+                        ruido y reconectar con la naturaleza.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://waze.com" target="_blank" rel="noopener noreferrer" aria-label="Waze">
+                            <i class="fab fa-waze"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="/about.html">Nosotros</a></li>
+                        <li><a href="/accommodations.html">Alojamientos</a></li>
+                        <li><a href="/services.html">Servicios</a></li>
+                        <li><a href="/gallery.html">Galería</a></li>
+                        <li><a href="/contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section footer-legal">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/privacy.html">Política de Privacidad</a></li>
+                        <li><a href="/data-treatment.html">Tratamiento de Datos</a></li>
+                        <li><a href="/terms.html">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a href="https://wa.me/573007402495" target="_blank" rel="noopener noreferrer"
+                                style="color: inherit; text-decoration: none;"><i class="fab fa-whatsapp"></i> +57 300
+                                740 2495</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Girardota, Antioquia</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>&copy; 2026 Aurora Ecoliving. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
